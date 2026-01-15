@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+catboost_info/
+*.egg-info/
+.DS_Store
+TinyRecursiveModels/
+
+# Large data files
+data/*.npz
+data/*.npz.bak
+data/twitter_clean_no_replies.json
+data/influencers_data.csv
+data/MNIST/
