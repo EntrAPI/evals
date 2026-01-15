@@ -1,0 +1,20 @@
+proper_power_persona.py
+
+Model: Qwen/Qwen2.5-3B-Instruct (single model for everything)
+
+Results on full test set (318 samples):
+
+| Method                         | Accuracy        |
+|--------------------------------|-----------------|
+| Baseline (greedy, no MH)       | 62.3% (198/318) |
+| Power Persona Sampling (β=1.0) | 88.1% (280/318) |
+
+Prediction flips:
+- Flipped to correct: 95
+- Flipped to wrong: 13
+- Net gain: +82
+
+Persona vector stats (from 200 training samples):
+- Correct predictions: 161
+- Incorrect predictions: 39
+- Separation: 3.05
